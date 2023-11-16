@@ -4,6 +4,8 @@
 	<title>Curriculum vitae de Didier Oliva</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/ajax.js"></script>
 </head>
 <body>
 	<div id="contenedor">
@@ -11,28 +13,25 @@
 		<img src="img/foto.jpg" alt="Descripción de la imagen">
 		<nav>
 			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="datospersonales.html">Datos personales</a></li>
-				<li><a href="experiencia.html">Experiencia profesional</a></li>
-				<li><a href="educacion.html">Educación</a></li>
-				<li><a href="referencias.html">Referencias</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
+				<li><a id="index" href="index.html">Inicio</a></li>
+				<li><a id="datospersonales" href="#">Datos personales</a></li>
+				<li><a id="experiencia" href="#">Experiencia profesional</a></li>
+				<li><a id="educacion" href="#">Educación</a></li>
+				<li><a id="referencias" href="#">Referencias</a></li>
+				<li><a id="contacto" href="#">Contacto</a></li>
 			</ul>
 		</nav>
-
-
-
 	</header>
 	<main>
+		<section id="content">
 		<h2>¡Hola y bienvenido a mi currículum! </h2>
 		<p>En las siguientes secciones, encontrarás todo lo que necesitás saber sobre mi experiencia, habilidades y logros profesionales.
-
-	
-		
+		<div id="content-description">
+	</div>
 	</main>
 	<footer>
 		<p>Derechos de autor iTec© 2023. Todos los derechos reservados.</p>
 	</footer>
-</div>
+	</div>
 </body>
 </html>
